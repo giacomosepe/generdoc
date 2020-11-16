@@ -41,7 +41,7 @@ const Contact = ({ contentModuleId }) => {
                 <p className="mb-4 w-full md:w-3/4" data-sal="slide-up" data-sal-easing="ease-in-cubic">{ content.node.description.description }</p>
                 <form id="contact_form" className="w-full md:w-3/4" noValidate data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">
                     <div className="input-group mb-2">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Nome</label>
                         <input type="text" id="name" className="input" name="name" />
                     </div>
                     <div className="input-group mb-2">
@@ -49,10 +49,10 @@ const Contact = ({ contentModuleId }) => {
                         <input type="email" id="email" className="input" name="email" />
                     </div>
                     <div className="input-group">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Messaggio</label>
                         <textarea id="message" className="h-20" name="message"></textarea>
                     </div>
-                    <button type="submit" className="btn btn--primary mt-8">Send</button>
+                    <button type="submit" className="btn btn--primary mt-8">Conferma</button>
                 </form>
             </div>
             <div className="contact__image">

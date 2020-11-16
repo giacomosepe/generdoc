@@ -25,7 +25,7 @@ const Footer = ({ menus }) => {
         <footer className="footer bg-tertiary text-white">
             <div className="container section mx-auto py-10">
                 <div className="footer__content">
-                    <h3 className="text-lg font-bold mb-4">Contact Info</h3>
+                    <h3 className="text-lg font-bold mb-4">Alcune Info</h3>
                     <ul className="text-sm">
                         <li className="mb-2">
                             <div className="item">
@@ -37,7 +37,7 @@ const Footer = ({ menus }) => {
                         </li>
                         <li className="mb-2">
                             <div className="item">
-                                <i className="item__icon material-icons text-white text-2xl">settings_phone</i>
+                                <i className="item__icon material-icons text-white text-2xl">video_label</i>
                                 <div className="item__content">
                                     <p className="item__text">{ data.contentfulContactDetails.contactNumber }</p>
                                 </div>
@@ -45,7 +45,7 @@ const Footer = ({ menus }) => {
                         </li>
                         <li className="mb-2">
                             <div className="item">
-                                <i className="item__icon material-icons text-white text-2xl">email</i>
+                                <i className="item__icon material-icons text-white text-2xl">mobile_friendly</i>
                                 <div className="item__content">
                                     <p className="item__text">{ data.contentfulContactDetails.email }</p>
                                 </div>
